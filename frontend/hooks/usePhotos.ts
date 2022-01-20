@@ -23,7 +23,7 @@ export default function usePhotos(skip: number, limit: number) {
     useEffect(() => {
         if (hasMore) {
             http.post(`/api/mongo/docs`, {
-                db: 'anoyi',
+                db: 'silence',
                 collection: 'photos',
                 query:  query,
                 projection: projection,

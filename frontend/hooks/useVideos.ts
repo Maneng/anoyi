@@ -54,7 +54,7 @@ export default function useVideos(skip: number, limit: number) {
     useEffect(() => {
         if (hasMore) {
             http.post(`/api/mongo/docs`, {
-                db: 'anoyi',
+                db: 'silence',
                 collection: 'videos',
                 query:  query,
                 projection: projection,

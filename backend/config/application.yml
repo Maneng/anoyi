@@ -15,6 +15,6 @@ yuque:
 mongo:
   host: 127.0.0.1
   port: 27017
-  authSource: admin
+  authSource: silence
   username: admin
-  password: ''
+  password: admin
